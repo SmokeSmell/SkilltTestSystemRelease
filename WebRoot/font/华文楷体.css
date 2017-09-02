@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "华文楷体";
+    src: url("/fonts/华文楷体.eot"); /* IE9 */
+    src: url("/fonts/华文楷体.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/fonts/华文楷体.woff") format("woff"), /* chrome, firefox */
+    url("/fonts/华文楷体.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("/fonts/华文楷体.svg#华文楷体") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+

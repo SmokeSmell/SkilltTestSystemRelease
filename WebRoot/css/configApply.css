@@ -1,0 +1,141 @@
+.pre_title_div {
+	position: relative;
+	top: 2%;
+	width: 100%;
+	height: 6%;
+}
+.pre_title_div > p {
+	float: left;
+	margin-top: 0.8%;
+	font-size: 1.0em;
+	margin-right: 1.8%;
+}
+.pre_title_div > input {
+	width: 20%;
+	float: left;
+	text-align: left;
+	height: 100%;
+}
+.time_config_title {
+	position: relative;
+	top: 5%;
+	width: 100%;
+	height: 4%;
+	float: left;
+	border-bottom: 1px solid silver;
+}
+.pre_time_div {
+	width: 100%;
+	height: 7%;
+	position: relative;
+	top: 7%;
+	float: left;
+	margin-bottom: 1%;
+}
+.pre_time_div > p {
+	float: left;
+	margin: 0px;
+}
+.start_time {
+	float: left;
+}
+.start_time > p {
+	float: left;
+}
+.date {
+	float: left;
+	position: relative;
+	width: 47%;
+	text-align: center;
+	height: 77%;
+	left: 6%;
+	margin-top: 4%;
+}
+.end_time > p {
+	float: left;
+}
+.end_time {
+	float: left;
+}
+.fa.fa-calendar.fw {
+	position: relative;
+	float: left;
+}
+.place_config_title {
+	float: left;
+	width: 100%;
+	height: 4%;
+	position: relative;
+	top: 9%;
+	border-bottom: 1px solid #bcbcbc;
+}
+.place_div {
+	float: left;
+	width: 100%;
+	height: 47%;
+	position: relative;
+	top: 11%;
+	overflow: auto;
+	border-bottom: 1px #c2c2c2 solid;
+}
+.place_div > table{
+	/*height:100%;*/
+}
+.applyConfig_button {
+	position: relative;
+	top: 12%;
+	width: 9%;
+	float: left;
+	height: 6%;
+}
+.applyConfig_button > button {
+	width: 100%;
+	height: 100%;
+}
+.applyConfig_selectAll_div {
+	float: right;
+	width: 6%;
+	height: 5%;
+	position: relative;
+	top: 13%;
+	/* right: 0%; */
+}
+.applyConfig_selectAll_div > p {
+	float: left;
+	margin: 0px;
+}
+.applyConfig_selectAll_div > input {
+	float: left;
+	margin: 8%;
+}
+.fa.fa-map-marker.fw {
+	float: left;
+}
+.applyConfig_tip {
+	margin: 0px;
+	float: left;
+	position: relative;
+	top: -23%;
+	left: 2%;
+	color: red;
+	display:none;
+}
+.preConfig_tip_div {
+	width: 42%;
+	height: 20%;
+	margin: auto;
+	position: relative;
+	top: 32%;
+}
+
+.preConfig_tip_div > p {
+	text-align: center;
+}
+.new_preApply_button {
+	float: left;
+	width: 22%;
+	height: 33%;
+	margin: auto;
+	position: relative;
+	left: 39%;
+}

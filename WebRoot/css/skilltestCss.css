@@ -1,0 +1,474 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#containner{
+     width: 100%;
+     height: 768px;
+    background-color: rgba(0, 0, 0, 0.14);
+ }
+#body {
+	width: 95%;
+	height: 77%;
+	margin: auto;
+}
+#left {
+    width: 22%;
+    height: 100%;
+    /* border: 1px solid darkgray; */
+    float: left;
+}
+#center {
+	width: 50%;
+	height: 100%;
+	float: left;
+	/* border: 1px #c5c5c5 solid; */
+	border-radius: 5px;
+	/* background-color: white; */
+}
+#right {
+    width: 27%;
+    height: 100%;
+    float: left;
+    /*background-color: white;*/
+}
+#login {
+	width: 95%;
+	height: 53%;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	margin: auto;
+	border: 1px solid rgb(213, 213, 213);
+}
+#login_title {
+	text-align: center;
+	color: white;
+	font-weight: 600;
+	padding-top: 2%;
+	border-bottom: 1px white solid;
+	padding-bottom: 2%;
+	background-color: RGB(0, 126, 252);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 8%;
+}
+
+#namediv {
+    width: 80%;
+    height: 11%;
+    margin: auto;
+    position: relative;
+    top: 11%;
+}
+.name {
+	float: left;
+	color: white;
+	width: 16%;
+	background-color: #0062a4;
+	height: 100%;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.input {
+	float: left;
+	height: 100%;
+	border: none;
+	width: 80%;
+	color: #656565;
+	background-color: #f8f8f8;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-shadow: 1px 1px 1px #5C5C5C inset;
+}
+#passworddiv {
+    width: 80%;
+    height: 11%;
+    margin: auto;
+    position: relative;
+    top: 22%;
+}
+.login_button {
+    width: 47%;
+    height: 100%;
+    border: none;
+    color: #413e3e;
+    background: -moz-linear-gradient(top, #fff, #dedddd);
+    border: 1px #b1b1b1 solid;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    right: -3%;
+}
+.init_button {
+    width: 47%;
+    height: 100%;
+    border: none;
+    color: #413e3e;
+    background: -moz-linear-gradient(top, #fff, #dedddd);
+    border: 1px #b1b1b1 solid;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+    border-bottom-right-radius: 5px;
+}
+.login_button:hover{
+    background: -moz-linear-gradient(top, #fff, rgba(167, 167, 167, 0.66));
+}
+.init_button:hover{
+    background: -moz-linear-gradient(top, #fff, rgba(167, 167, 167, 0.66));
+}
+#buttons {
+    position: relative;
+    margin: auto;
+    width: 79%;
+    top: 36%;
+    height: 10%;
+}
+#info {
+	width: 100%;
+	height: 68%;
+	background-color: #f0f0f0;
+	position: relative;
+	top: 1%;
+	border-radius: 5px;
+	/*! background-image:url("../image/beijing.png"); */
+	border: 1px solid #bfbfbf;
+	background-size: 100% 100%;
+	color: #110f0f;
+}
+#info_title {
+	width: 97%;
+	height: 6%;
+	/* background-color: #c6c2c2; */
+	/* border-bottom: 2px #0681f9 solid; */
+	position: relative;
+	top: 3%;
+	margin: auto;
+}
+#info_txt {
+	/* background-color: #308fd5; */
+	width: 16%;
+	height: 100%;
+	/*! color: white; */
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	font-size: 131%;
+	font-family: 华文行楷;
+}
+#huaxian {
+	width: 100%;
+	position: absolute;
+	top: 8%;
+	height: 4%;
+	display: none;
+}
+.infolist {
+	width: 97%;
+	height: 6%;
+	margin: auto;
+	position: relative;
+	top: 6%;
+	border-bottom: 1px gray dotted;
+}
+.list_title {
+	float: left;
+	text-decoration: none;
+	color: #151414;
+	font-size: 103%;
+	font-family: 华文楷体;
+	/* font-weight: 600; */
+}
+.up_people {
+	float: right;
+	font-size: 90%;
+	color: #7a7373;
+	position: relative;
+	right: 2%;
+}
+.up_time {
+	float: right;
+	font-size: 96%;
+	color: #686868;
+	position: relative;
+	top: 8%;
+}
+#pep {
+    width: 60%;
+    height: 60%;
+    position: relative;
+    top: 17%;
+    left: 20%;
+}
+#key {
+    width: 60%;
+    height: 60%;
+    position: relative;
+    top: 24%;
+    left: 21%;
+}
+.arrow {
+    width: 13px;
+    height: 14px;
+    float: left;
+    position: relative;
+    top: 16%;
+    padding-right: 1%;
+}
+#right_content {
+    width: 92%;
+    height: 100%;
+    border: 1px solid #c6c6c6;
+    margin: auto;
+    border-radius: 5px;
+    background-image: url("../image/muwen2.jpg");
+}
+#right_title {
+    font-weight: 600;
+    color: #0ba0ff;
+    padding-top: 2%;
+    padding-left: 4%;
+    border-bottom: 2px #0eb3ff solid;
+    padding-bottom: 1%;
+    font-size: 15px;
+}
+.apps {
+    width: 100%;
+    height: 7%;
+    padding-top: 5%;
+}
+.app_image {
+	width: 41px;
+	height: 41px;
+	border: 1px rgba(128, 128, 128, 0.35) solid;
+	border-radius: 5px;
+	/* position: relative; */
+	/* top: 5%; */
+	/* left: 5%; */
+}
+.app_name {
+	position: relative;
+	/* left: 6%; */
+	top: -31%;
+	text-decoration: none;
+	cursor: pointer;
+	font-family: 华文楷体s;
+	font-size: 18px;
+}
+.apps_cont {
+	width: 77%;
+	height: 100%;
+	margin: auto;
+	border-radius: 5px;
+}
+#c2{
+	background-image:url("../image/c2.png");
+}
+#c3{
+	background-image:url("../image/c3.png");
+}
+#c4{
+	background-image:url("../image/c4.png");
+}
+#c5{
+	background-image:url("../image/c5.png");
+}
+#c6{
+	background-image:url("../image/c6.png");
+}
+#logintip {
+	text-align: center;
+	position: relative;
+	top: 4%;
+	color: red;
+	/* left: 0%; */
+	width: 100%;
+	height: 7%;
+}
+.userinfo_name {
+	float: left;
+}
+.userinfo_value {
+	float: left;
+	position: relative;
+	left: 12%;
+}
+.info {
+	width: 59%;
+	height: 7%;
+	margin: auto;
+	padding-top: 6%;
+	
+}
+#welecom {
+	position: relative;
+	top: 7%;
+	left: 19%;
+	font-family: 鍗庢枃琛屾シ;
+	/* font-size: 103%; */
+	color: #3c3c3c;
+}
+#welecom_user {
+	position: relative;
+	top: 3%;
+	left: 19%;
+	color: #505050;
+	font-family: 鍗庢枃琛屾シ;
+	/* font-weight: 600; */
+	font-size: 18px;
+}
+#user_infos {
+	width: 100%;
+	height: 54%;
+	position: relative;
+	top: 7%;
+	font-family: 瀹嬩綋;
+	/* font-size: 17px; */
+	color: #333;
+}
+#exit {
+	position: relative;
+	top: 0%;
+	left: 26%;
+	font-size: 14px;
+}
+#detail {
+	padding-left: 19%;
+	font-size: 14px;
+}
+#infopane{
+	
+	 width: 95%;
+    height: 53%;
+    background-color: #ededed;
+    border-radius: 5px;
+    margin: auto;
+    border: 1px solid rgba(128, 128, 128, 0.28);
+}
+#forgetpw {
+	position: relative;
+	top: 26%;
+	float: right;
+	right: 14%;
+	font-size: 90%;
+	color: gray;
+}
+#downloadpane {
+	width: 95%;
+	height: 44%;
+	border: 1px #b7b7b7 solid;
+	margin: auto;
+	position: relative;
+	top: 2%;
+	border-radius: 5px;
+	background-color: white;
+}
+#downtitle {
+	width: 100%;
+	height: 12%;
+	text-align: center;
+	background-color: #7d7d7d;
+	padding-top: 2%;
+	color: white;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.downimage {
+	width: 20px;
+	height: 16px;
+	position: relative;
+	top: 16%;
+}
+.downcontent {
+	position: relative;
+	top: 3%;
+	left: 10%;
+	padding-top: 3%;
+	height: 8%;
+}
+#more {
+	float: right;
+	position: relative;
+	right: 8%;
+	top: 6%;
+	text-decoration: none;
+	color: gray;
+}
+.download {
+	font-size: 14px;
+	color: #14458f;
+}
+
+
+/*ffff*/
+.roll-news {
+	width: 100%;
+	height: 30%;
+	border: solid 1px #c1c1c1;
+	border-radius: 5px;
+}
+.roll-news-image {
+	height: 100%;
+	border-radius: 5px;
+} 
+.roll-news-index-hover {  
+    background-color:#006efe;  
+}  
+.roll-news-image img {
+	width: 100%;
+	height: 100%;
+	border-radius: 2px;
+	border-radius: 5px;
+}
+.roll-news-index {
+	position: relative;
+	top: -13%;
+	margin-right: 2%;
+	float: right;
+} 
+.roll-news-index {  
+}  
+.roll-news-index li {
+	list-style: none;
+	float: left;
+	font-size: 12px;
+	font-weight: 600;
+	width: 18px;
+	height: 16px;
+	line-height: 16px;
+	cursor: pointer;
+	margin: 0 3px;
+	background-image: url(opacity_50.png);
+	text-align: center;
+	color: white;
+} 
+.roll-news-title {  
+    position:relative;  
+    top:-25px;  
+    padding-left:10px;  
+    height:22px;  
+    line-height:20px;  
+    background:url(opacity_50.png);  
+}  
+.roll-news-title a {  
+    font-size:12px;  
+    text-decoration:none;  
+    color:#222222;  
+}  
+.roll-news-title a:hover {  
+    color:red;  
+}  
+#info_content {
+	width: 90%;
+	height: 93%;
+	position: relative;
+	top: 8%;
+	/* left: 0%; */
+}
+#univers {
+	position: absolute;
+	width: 17%;
+	left: 76%;
+	top: -5%;
+}

@@ -1,0 +1,300 @@
+@CHARSET "UTF-8";
+.M-box2 {
+	position: relative;
+	float:left;
+	/* top: 3%; */
+}
+#right_buttom {
+	position: relative;
+	top: 2%;
+	width: 100%;
+	height: 6%;
+}
+.refreshdiv:hover{
+	color:green;
+}
+.refreshdiv {
+	float: left;
+	position: relative;
+	width: 6%;
+	color: #7e7e7e;
+	cursor: pointer;
+	border: 1px #cecece solid;
+	height: 38px;
+	padding-left: 1%;
+	/*display: none;*/
+}
+.refico {
+	float: left;
+	position: relative;
+	margin-top: 15%;
+}
+
+.refresh {
+	float: left;
+	position: relative;
+	margin-top: 10%;
+	left: 14%;
+}
+.shownum {
+	float: right;
+	position: relative;
+	top: 10%;
+}
+
+.adddiv {
+	margin-top: 3%;
+	cursor: pointer;
+	line-height: 1.5em;
+}
+.add {
+	background-color: #ec661d;
+}
+.find {
+	background-color: #48A748;
+}
+.export {
+	background-color: #00b7ff;
+}
+.searchinput_div {
+	width: 19%;
+	height: 58%;
+	float: left;
+	position: relative;
+	left: 29%;
+	top: 25%;
+	display: none;
+}
+.search_input {
+	width: 64%;
+	height: 100%;
+	text-align: left;
+	/* border-radius: 3px; */
+	/* display: none; */
+	color: gray;
+	float: left;
+	border-left: none;
+}
+.greetdiv {
+	width: 30%;
+	height: 100%;
+	float: left;
+	position: relative;
+	top: 7%;
+}
+.dialog-content-title{
+	margin:4px;
+}
+.needfind {
+	float: left;
+	width: 34%;
+	height: 100%;
+	border: 1px solid #bababa;
+
+	text-align: center;
+}
+.buttonsdiv {
+	float: right;
+	width: 12.2%;
+	height: 59%;
+	background: #007FEC;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 24%;
+	/* right: 20%; */
+	margin-left: 0.3%;
+}
+.adddiv {
+	margin-top: 3%;
+	cursor: pointer;
+	line-height: 1.5em;
+}
+.deldiv {
+	margin-top: 3%;
+	cursor: default;
+	line-height: 1.5em;
+}
+.savediv {
+	margin-top: 3%;
+	cursor: pointer;
+	line-height: 1.5em;
+}
+.importdiv{
+	margin-top: 3%;
+	cursor: pointer;
+	line-height: 1.5em;
+}
+.exportdiv{
+	margin-top: 3%;
+	cursor: pointer;
+	line-height: 1.5em;
+}
+.finddiv{
+	margin-top: 3%;
+	cursor: pointer;
+	line-height: 1.5em;
+}
+.importContextdiv {
+	float: right;
+	margin-top: 1.2%;
+	height: 55%;
+	border: 1px solid #e0e0e0;
+	/* border-radius: 5px; */
+	width: 41%;
+}
+.add {
+	background-color: #ec661d;
+}
+.del {
+	background-color: grey;
+}
+.export {
+	background-color: #15e12db3;
+}
+.find{
+	background-color: #00b7ff;
+}
+.import {
+	background-color: #0cb7ef;
+}
+.searchinput_div {
+	width: 19%;
+	height: 58%;
+	float: left;
+	position: relative;
+	left: 29%;
+	top: 25%;
+	display: none;
+}
+.search_input {
+	width: 64%;
+	height: 100%;
+	text-align: left;
+	/* border-radius: 3px; */
+	/* display: none; */
+	color: gray;
+	float: left;
+	border-left: none;
+}
+.greetdiv {
+	width: 44%;
+	height: 100%;
+	float: left;
+	position: relative;
+	top: 7%;
+	text-align: center;
+}
+.dialog-content-title{
+	margin:4px;
+}
+.needfind {
+	float: left;
+	width: 34%;
+	height: 100%;
+	border: 1px solid #bababa;
+
+	text-align: center;
+}
+#file {
+	width: 84%;
+	font-size: 1.0em;
+	font-weight: bold;
+	word-wrap: break-word;
+}
+#upButton {
+	height: 100%;
+	width: 15%;
+}
+.check{
+	height: 20px;
+}
+.checktd{
+	width: 60px;
+}
+.right-content {
+	height: 90%;
+	width: 100%;
+	overflow-x: auto;
+	position: relative;
+	top: 1%;
+}
+.table{
+	width:100%;
+	overflow: auto;
+}
+
+.text {
+	width: 100%;
+	height: 23px;
+	border: none;
+	background-color: rgba(0,0,0,0);
+	text-align: center;
+	font-size: 1.0em;
+}
+#student_indentity{
+	width: 200px;
+}
+.role{
+	width: 120px;
+    text-align: center;
+    margin: 0;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+.msg_tip {
+	overflow: auto;
+	width: 100%;
+	height: 58%;
+}
+.search_div {
+	float: left;
+	width: 45%;
+	height: 100%;
+}
+.search_frame {
+	width: 63%;
+	height: 64%;
+	border: 2px solid #7a7a7a;
+	position: relative;
+	top: 16%;
+	border-radius: 4px;
+	left: 28%;
+}
+.search_frame > select {
+	width: 26%;
+	text-align: center;
+	/* border: none; */
+	height: 82%;
+}
+#search_input {
+	width: 61%;
+	height: 100%;
+	border: none;
+	padding-left: 2%;
+}
+.search_frame > li {
+	font-size: 1.3em;
+	cursor: pointer;
+}
+.delelteBox {
+	float: right;
+	position: relative;
+	top: 11%;
+	right: 10%;
+}
+.student_identity,.student_class,.exam_number,.occupation {
+	width: 200px;
+}
+.copyright {
+	margin: 0px;
+	font-size: 0.9em;
+	color: white;
+	position: relative;
+	top: 11%;
+	text-align: center;
+	font-family: 楷体;
+}
+#pre_upButton {
+	float: right;
+}

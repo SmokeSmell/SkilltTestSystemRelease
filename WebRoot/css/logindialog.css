@@ -1,0 +1,56 @@
+form {
+    width: 100%;
+    height: 94%;
+}
+#login_username {
+    position: relative;
+    top: 13%;
+    left: 5%;
+}
+#username_input {
+    position: relative;
+    top: -10%;
+    left: 29%;
+    width: 56%;
+    height: 15%;
+    border: 1px #9e9e9e solid;
+    border-radius: 3px;
+}
+.login_password {
+    position: relative;
+    top: -6%;
+    left: 9%;
+    width: 12%;
+    height: 14%;
+}
+#password {
+    position: relative;
+    top: -31%;
+    left: 29%;
+    height: 15%;
+    border: 1px #9e9e9e solid;
+    border-radius: 3px;
+    width: 56%;
+}
+#login {
+    width: 25%;
+    position: relative;
+    left: -40%;
+    top: 0%;
+}
+#init {
+    position: relative;
+    left: 51%;
+    top: -16.5%;
+    width: 31%;
+}
+.ui-dialog .ui-dialog-titlebar-close{
+    display: none;
+}
+#login_tip {
+    position: absolute;
+    top: -3%;
+    left: 34%;
+    color: red;
+    display: none;
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>help.html</title>
+	<meta charset="gb2312">
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html">
+     <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css" type="text/css">
+     <link href="../css/help.css" rel="stylesheet">
+    <link href="../css/jquery-ui.min.css" rel="stylesheet"/>
+    <link href="../css/jquery-ui.theme.min.css" rel="stylesheet"/>
+   
+    <script type="text/javascript" src="../js/jquery.min.js" charset="gb2312"></script>
+    
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/help.js" charset="gb2312"></script>
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+	<style type="text/css">
+	html, body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+	</style>
+  </head>
+  
+  <body>
+ 	        	<div class="help_div">
+      		<p><i class="fa  fa-question fa-fw"></i>预报名</p>
+      		<div class="help_content">
+      			<div class="accordion">
+			  <h3>预报配置</h3>
+			  <div>
+			    <p class="help_p">预报名配置是为学生在指定时间提供预报名的通道,学生必须管理员设定的时间之
+			    	内进行预报名,其它时间不能预报名,但管理员可以在任意时间进行批量预报名。
+			    	<br>在预报名配置时，管理员可以设置学生预报名时间以及强化班开始以及结束时间。
+			    	同时系统也会显示所有强化班信息。
+			    </p>
+			  </div>
+			  <h3>批量报名</h3>
+			  <div>
+			    <div class="help_p">
+			    	批量报名是管理员通过批量添加/导入的形式对学生进行批量报名的一种方式,同时管理员也可以对
+			    	预报名的用户进行编辑。
+			    	<p>管理员批量预报名之前系统应当配置完成机房信息以及导入学生和教室信息,否则
+			    	无法正常进行预报名</p>
+			    	<p>批量预报名在 预报名管理 -> 预报名 下
+			    	批量报名将会验证学生的信息是否有误,如果学生信息不存在或者学号与姓名不对应将无法
+			    	进行预报名</p>
+			    	
+			    </div>
+			  </div>
+			  <h3>学生预报名</h3>
+			  <div>
+			    <div class="help_p">
+			    	<p>学生在指定时间段通过登录技能鉴定系统进行强化班预报名,报名成功后系统
+			    	将显示学生的分班信息以及强化班安排</p>
+			    	<p>学生预报名之前系统应当配置完成机房信息以及导入学生和教室信息并进行预报名配置,否则
+			    	无法正常进行预报名</p>
+			    </div>
+			  </div>
+			  <h3>批量缴费</h3>
+			  <div>
+			  	<div class="help_p">
+			  		<p>批量缴费允许管理员对学生缴费信息进行编辑，管理员可以通过Excel文件导入
+			  		的形式进行批量缴费,系统将会验证学生信息是否有误，如果未发现某个学生的信息
+			  		或学号与姓名不对应，将无法修改此学生缴费信息</p>
+			  		
+			  	</div>
+			    
+			  </div>
+			  <h3>缴费日志</h3>
+			  <div>
+			  	<div class="help_p">
+			  		<p>为防止学生的缴费信息被任意修改,任何对缴费信息的修改都将被记录到缴费
+			  		日志,以备查看,如需查看缴费缴费日志,请选择 预报名配置 -> 缴费日志</p>
+			  	</div>
+			  </div>
+			  <h3>批量报名/缴费导入失败</h3>
+			  <div>
+			    <div class="help_p">
+			    	<p>在批量报名中,系统将会忽略对已报名的学生的操作,但会更新现有学生的缴费信息
+			    	重复的学生系统将会给予提示,除此之外,系统可能会发生以下异常:</p>
+			    	<p class="help_err">1.数据读取失败</p>
+			    	<p class="help_ans">解决方案:该异常可能是由于所需数据与表格数据不一致引起的,请检查表格格式是否
+			    	有误，表格中的列与模板是否一致</p>
+			    	<p class="help_err">2.未发现以下学生信息,请检查数据正确性</p>
+			    	<p class="help_ans">解决方案:系统将在错误信息中提示发生错误的学生信息，请检查以下情况：
+			    	1.请检查预报名的学生信息是否已经导入。
+			    	2.请检查表格中的学生信息与
+			    	系统中的学生信息是否有误。</p>
+			    	<p class="help_err">3.未有足够位置容纳分配的学生</p>
+			    	<p class="help_ans">解决方案:当预报名的学生数目超过所有机房的最大容纳量与允许超过量之和时,就会
+			    	发生异常，系统将无法为超过最大数量的学生分配教室,此时管理员应当扩大机房容量或
+			    	添加新的机房信息</p>
+			    	<p class="help_err">
+			    		4.未发现强化班信息，请检查强化班信息是否配置
+			    	</p>
+			    	<p class="help_ans">请按照提示检查是否配置强化班信息</p>
+			    </div>
+			  </div>
+			</div>
+      		</div>
+      	</div>
+      	<div class="help_div">
+      		<p><i class="fa  fa-question fa-fw"></i>数据编辑</p>
+      		<div class="help_content">
+      			<div class="accordion">
+			  <h3>用户信息编辑</h3>
+			  <div>
+			    <div class="help_p">
+			    	<p>用户信息编辑允许管理员对学生登录信息进行修改,同时管理员可以添加其他用户
+			    	,当用户无法登录,管理员可以修改用户密码</p>
+			    	<p>除管理员信息外,学生账号在学生信息导入后自动生成,账号为学号,密码为身份证
+			    	后六位,大外部的学生初始密码为:000000</p>
+			    </div>
+			  </div>
+			  <h3>学生信息编辑</h3>
+			  <div>
+			    <div class="help_p">
+			    	<p>学生信息编辑允许管理对学生信息进行导入/修改,学生信息是学生预报名以及登录
+			    	的基础,如果没有学生信息将直接影响系统整体功能,为更加高效的添加学生信息,系统
+			    	提供了学生信息导入功能。</p>
+			    	<p style="color:red">由于该项数据可能较多，因此在进行导入学生信息时可能会
+			    	耗费几分钟时间，在此期间请您耐心等待，不要进行其它操作，如刷新页面、关闭页面等。
+			    	以免影响系统的正常运行</p>
+			    	<p style="color:red">
+			    	为确保系统的流畅运行，我们建议您每隔一段时间将无用的学生信息删除，避免
+			    	数据的冗余。从而加快数据导入以及读取的速度。</p>
+			    	
+			    </div>
+			  </div>
+			  <h3>教师信息编辑</h3>
+			  <div>
+			    <div class="help_p">
+			    	<p>教师信息是强化班任课教师的信息,因此，在强化班信息配置之前应当录入教师信息</p>
+			    	<p>您可以从Excel表格中导入教师信息</p>
+			    </div>
+			  </div>
+			  <h3 >强化班信息编辑</h3>
+			  <div>
+			    <div class="help_p">
+			    	<p>强化班信息是学生进行预报名以及管理员进行批量报名的基础,在预报名之前应当
+			    	配置好强化班信息,强化班信息可以采用添加或导入的形式</p>
+			    	<p style="color:red">
+			    		强化班信息导入/编辑依赖教师信息，请在导入强化班信息之前确认强化班中的
+			    		教师信息是否存在,否则将无法导入/编辑
+			    	</p>
+			    </div>
+			  </div>
+			  <h3>模拟成绩信息编辑</h3>
+			  <div>
+			  	<div class="help_p">
+			  		<p>模拟成绩是判定学生是否有资格进行计算机等级考试的依据之一,若没有模拟成绩或者模拟成绩
+			  		小于60，将无法报名计算机等级考试,管理员可通过直接添加或者导入的形式来添加模拟成绩。
+			  		</p>
+			  		<p style="color:red;">在导入/添加模拟成绩之前请确认是否已经预报名，如果模拟成绩中出
+			  		现未预报名的学生，将无法导入/添加其模拟成绩。</p>
+			  		<p style="color:red;">模拟成绩模板在模板下载中，建议在教师打分时
+			  		使用系统生成的模拟成绩模板，系统在模板中已经生成好需要打分的学生模拟成绩信息</p>
+			  	</div>
+			  </div>
+			  <h3>考证成绩编辑</h3>
+			  <div>
+			    <div class="help_p">
+			    	<p>考证信息是学生通过模拟考试并参加计算机等级考试的最终成绩,是统计考试结果的数据来源
+			    	,考证成绩的错误将导致统计结果出错</p>
+			    	
+			    </div>
+			  </div>
+			  <h3>数据导入失败帮助</h3>
+			  <div>
+			    <div class="help_p">
+			    	<p>在数据导入时可能会出现一些异常,当发生异常时,管理员应当首先验证导入文件
+			    	是否与模板保存一直,如果仍然无法解决，请参照以下方案:</p>
+			    	<p class="help_err">1.导入/添加强化班信息时提示Cannot add or update a child row: a foreign key constraint fails</p>
+			    	<p class="help_ans">解决方案：该异常因为系统在导入/编辑的强化班信息中未发现某些强化班中教师信息。
+			    	请确保系统中存在导入/编辑的强化班信息中教师的信息。否则系统就会出错</p>
+			    	<p class="help_err">2.提示java.lang.reflect.InvocationTargetException</p>
+			    	<p class="help_ans">该问题是由于数据格式异常引起的，例如学生信息中学号只能为数字,身份证号号为18位有效字符
+			    	日期为YYYY-MM-DD格式，如果对应的数据格式输入错误，则会引发此异常，此时请检查输入/导入的数据信息格式是否有误</p>
+			    	<p class="help_err">3.导入模拟成绩时提示学生信息有误.</p>
+			    	<p class="help_ans">导入模拟成绩时提示学生信息有误可能有以下原因:1.系统中的学生信息与
+			    	导入/编辑的模拟成绩中的学生信息不对应，请检查系统中的学生学号与姓名是否与导入/编辑中的
+			    	学号与姓名是否对应。2.导入/编辑的模拟成绩中的某些学生未在系统中预报名名单中出现,也就是说
+			    	导入/编辑的模拟成绩里的学生可能未预报名或者预报名信息有误,请检查导入/编辑的学生信息是否有误
+			    	或者系统提示的学号是否在预报名中存在。</p>
+			    	<p class="help_err">4.未能根据学生身份证号获得学生考试号</p>
+			    	<p class="help_ans">请先检查系统中学生信息是否存在,如果不存在请先导入/添加学生信息。
+			    	如果存在请检查系统中的学生信息或者导入/编辑中的学生信息是否有误.</p>
+			    	<p class="help_err">5.提示Duplicate entry 'xxxxxxx' for key 'PRIMARY'</p>
+			    	<p class="help_ans">该提示表明系统中已经存在xxxxxxx记录信息,并且不允许重复填加此信息。
+			    	管理员可以查找这条信息并修改这条信息，也可以删除这条信息后再重新添加</p>
+			    </div>
+			    	
+			    </div>
+			  </div>
+			
+      		</div>
+      	</div>
+     	<div class="help_div">
+      		<p><i class="fa  fa-question fa-fw"></i>其它</p>
+      		<div class="help_content">
+      			<div class="accordion">
+			  <h3>文件导入说明</h3>
+			  <div>
+			    <div class="help_p">
+			    	<p>数据导入是系统中各种信息的重要来源，错误的导入方式可能导致系统运行错误。为保障
+			    	系统的正常运行，在导入各种数据时应注意以下几点</p>
+			    	<p>1.在导入数据之前请先下载对应的模板，在与要导入的文件对比后确认无误方可导入</p>
+			    	<p>2.系统是根据Excel文件中的列名来读取相应的文件，因此，每个数据文件必须包含列名
+			    	。在导入数据之前应首先确定
+			    	将要导入的文件中的列名是否与模板中的列名保持一致，如果名称不同，应当修改成模板中
+			    	对应的列名，否则无法读取。</p>
+			    	<p>3.系统在读取Excel文件时会首先查找对应数据项的列名，如果在文件第一行中未发现列名
+			    	，将自动读取下一行，如果前五行仍未发现对应的列名，系统将不再继续读取该文件。因此，在
+			    	导入数据文件之前，应确定数据文件前五行之内包含于对应数据模板对应的列名。</p>
+			    	<p>4.系统允许导入的数据文件包含标题以及其它说明信息，但必须排列在列名之前且不能超过
+			    	五行，如果导入的数据文件中的列的数目比对应模板中列的数目多，您可以不用修改当前要导入的
+			    	数据文件，但必须保证数据文件中的列名与对应模板中的列名相一致，并且顺序也要保持一致。
+			    	对于模板中未出现的列，数据可以为空</p>
+			    </div>
+			  </div>
+			  <h3>需缴费学生名单查询</h3>
+			  <div>
+			    <div class="help_p">
+			    	<p>需缴费学生名单查询是系统获取的所有预报名中未缴费的学生名单,管理员可以将这些名单导出,
+			    	如果现实未空,可能是没有未缴费学生或者没有预报名信息</p>
+			    </div>
+			  </div>
+			  <h3>强化班安排表查询</h3>
+			  <div>
+			 	<div class="help_p">
+			 		<p>强化班安排表包含已经预报名的学生的强化班信息、教师信息、开课时间以及截止日期等</p>
+			 		<p>如果未查询到某个学生的强化班信息，可能有以下情况:</p>
+			 		<p>1.该学生未缴费或预报名失败</p>
+			 		<p>2.该学生信息不存在</p>
+			 	</div>
+			  </div>
+			  <h3>报名表查询</h3>
+			  <div>
+			  	<div class="help_p">
+			 		<p>报名表查询是系统根据模拟成绩生成的考试报名表</p>
+			 		<p>如果未查询到某个学生的报名信息，可能有以下情况:</p>
+			 		<p>1.该学生未缴费或预报名失败</p>
+			 		<p>2.该学生模拟考试成绩不合格</p>
+			 	</div>
+			   </div>
+			  
+			</div>
+      		</div>
+      	</div>
+      	<div class="import_templete">
+      		<div class="templete_title">
+      			<i class="fa fa-download fa-fw"></i>导入模板下载
+      		</div>
+      		<div class="templete_download">
+      			<a href="../frontservlet?operat=DOWNLOADTEMPLATE&fileName=apply"><i class="fa fa-file-excel-o fa-fw"></i>批量预报名模板</a>
+      			<a href="../frontservlet?operat=DOWNLOADTEMPLATE&fileName=pay"><i class="fa fa-file-excel-o fa-fw"></i>批量缴费模板</a>
+      			<a href="../frontservlet?operat=DOWNLOADTEMPLATE&fileName=dataedit"><i class="fa fa-file-archive-o fa-fw"></i>数据编辑模板</a>
+      			<a href="../frontservlet?operat=EXPORTMOCKTEMPLAT" style="color:red;"><i class="fa fa-file-excel-o fa-fw"></i>模拟成绩导入模板</a>
+      		</div>
+      	</div>
+  </body>
+</html>

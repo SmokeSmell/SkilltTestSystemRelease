@@ -1,0 +1,56 @@
+.help_div {
+	width: 32%;
+	height: 84%;
+	float: left;
+	margin-right: 1%;
+}
+.help_div > p {
+	border-bottom: 1px #d8d8d8 solid;
+}
+.help_content {
+	overflow: auto;
+	width: 100%;
+	height: 87%;
+}
+.import_templete {
+	width: 98%;
+	height: 14%;
+	float: left;
+	/*border: 1px solid #e3dbdb;*/
+}
+.help_p {
+	text-indent: 1.2em;
+}
+.help_p > p {
+	margin: 0px;
+}
+.help_p > ul {
+	margin: 0px;
+}
+.templete_title {
+	width: 32.5%;
+	padding-bottom: 5px;
+	border-bottom: 1px #d4d4d4 solid;
+}
+.templete_download {
+	width: 100%;
+	height: 31%;
+	position: relative;
+	top: 25%;
+}
+.templete_download > a {
+	margin-right: 3%;
+	color: #535353;
+	text-decoration: underline;
+}
+.templete_download > a:hover {
+	/* margin-right: 3%; */
+	color: #0042ff;
+	/* text-decoration: underline; */
+}
+.help_ans {
+	color: #0050ff;
+}
+.help_err {
+	color: red;
+}

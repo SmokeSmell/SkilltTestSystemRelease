@@ -1,0 +1,101 @@
+.proce_div {
+	width: 25%;
+	height: 85%;
+	float: left;
+	border: 3px #b4b4b4 solid;
+	position: relative;
+	top: 3%;
+	margin-right: 2%;
+}
+.proce_title {
+	width: 100%;
+	height: 6%;
+	text-align: center;
+	border-bottom: 1px solid #aeaeae;
+	padding-top: 2%;
+}
+.proce_top {
+	width: 100%;
+	height: 44%;
+	float: left;
+}
+.proce_buttom {
+	float: left;
+	width: 100%;
+	height: 48%;
+}
+.op_tip {
+	float: left;
+	margin: 0px;
+	position: relative;
+	left: 10%;
+	top: 3%;
+}
+.must_title {
+	float: left;
+	margin: 0px;
+	position: relative;
+	left: 17%;
+	width: 80%;
+	margin-top: 5%;
+}
+.op_tip > li {
+	list-style: none;
+	font-family: ¿¬Ìå;
+	color: gray;
+}
+.step_arrow {
+	float: left;
+	width: 4%;
+	position: relative;
+	top: 43%;
+	color: #008aff;
+}
+.look_statis {
+	width: 10%;
+	height: 7%;
+	position: relative;
+	top: 45%;
+	left: 1%;
+}
+.proced_sub {
+	float: left;
+	width: 80%;
+	height: 8%;
+	position: relative;
+	top: 4%;
+	border: 1px solid #c9c9c9;
+}
+.compelet {
+	color: green;
+}
+.uncompelet {
+	color: gray;
+}
+.isdoing {
+	color: #005dff;
+}
+.maybedo {
+	color: #e829ed;
+}
+.proced_sub > li {
+	margin: 2%;
+	float: left;
+}
+.could_tip > li {
+	color: #b622ed;
+}
+.proce_tip {
+	float: left;
+	width: 49%;
+	position: relative;
+	left: 0%;
+	border-left: 1px solid #ccc;
+	padding-left: 3%;
+}
+.proce_tip > p {
+	margin: 0px;
+	font-size: 0.9em;
+	margin-top: 0.9%;
+	color: red;
+}

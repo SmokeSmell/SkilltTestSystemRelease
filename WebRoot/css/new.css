@@ -1,0 +1,26 @@
+
+body{height: 100%;margin: 0px;padding: 0px}
+.box{float: left;height:100%;width:80%;position: absolute;margin-left: 10%;border: 1px silver solid;box-sizing:content-box}
+
+.header{width: 100%;height: 15%;float: left}
+.header-content-one{width: 100%;height: 50%;background-color: #0282cd}
+.header-content-one-front{height: 100%;width: 13%;float: left;background-color: #025081;border-right: 1px solid #025081}
+.header-content-two{width: 100%;height: 50%}
+.header-content-two-front{height: 100%;width: 13%;float: left;background-color: #b3b3b3;border-right: 1px solid #b3b3b3}
+
+.content{width: 100%;height:85%;float: left}
+.left{width: 13%;height: 100%;float: left;border-right: 1px solid silver;box-sizing: content-box;background-color: #f1f1f1}
+.left-a{height: 50px;line-height: 50px;display: block;border-bottom:1px dashed #e1e1e1;color:#777777;background:#fff;text-decoration:none;text-align: left;text-indent:30%}
+.left-a-last{height: 50px;line-height: 50px;display: block;color:#777777;background:#fff;text-decoration:none;text-align: left;text-indent:30%}
+.left-p{height: 60px;line-height: 60px;border-top: 1px solid silver;border-bottom: 1px solid silver;margin: 0px;text-align: center;color: #666666;font-family: 黑体;font-size: 20px}
+.left-p:hover{color: #1fbfd9}
+.left-up{height: 86%;width: 100%;text-align: center;}
+
+
+.right{width: 85%;height: 95%;float:left;margin-left: 1%;border-top: 1px silver solid}
+.right-content{height: 100%;border: 1px silver solid;margin: 10px 0px 10px 0px}
+.right-title{width: 100%;height: 8%;background-color:#f1f1f1;border-bottom: 1px solid silver;line-height: 70px}
+.right-footer{}
+.right-li{float:left}
+.right-a{display: block;width: 120px;margin-right: 20px;height: 30px;text-align: center;line-height: 30px;color: #fafafa;font-family: 黑体}
+

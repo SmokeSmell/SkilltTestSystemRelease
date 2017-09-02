@@ -1,0 +1,76 @@
+.table {
+	
+	/*position: relative;
+	top: 5%;*/
+}
+.preApplyed_div {
+	position: relative;
+	top: 2%;
+	overflow: auto;
+}
+.preApplyed_div {
+	position: relative;
+	top: 2%;
+	overflow: auto;
+	height: 90%;
+	/* border: 1px solid #bdbdbd; */
+}
+.trselected {
+	color: blue;
+	/* color: blue; */
+}
+.trunselected{
+	color:black;
+}
+.info-text {
+	text-align: center;
+	font-size: 1.3em;
+	/*color: black;*/
+}
+.zeromodal-title1 {
+	text-align: center;
+	color: #575757;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.err_tip {
+	width: 100%;
+	height: 38%;
+	overflow: auto;
+}
+.batchApply{
+	width:16%;
+}
+#upload_file {
+	overflow: hidden;
+	width: 56%;
+	
+}
+.err_tip > p {
+	margin: 0px;
+}
+.log > p {
+	margin: 0px;
+}
+.paylog_div {
+	overflow: auto;
+	width: 100%;
+	height: 96%;
+	position: relative;
+	top: 1%;
+}
+.site_right {
+	width: 76%;
+	height: 93%;
+	float: right;
+}
+.preapply_savediv {
+	width: 100%;
+	/* height: 100%; */
+	margin-top: 4%;
+	cursor: pointer;
+}
+.dialog-content-bd {
+	text-align: center;
+	font-size: 0.9em;
+}

@@ -1,0 +1,65 @@
+@CHARSET "gb2312";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#containner{
+    width: 100%;
+    height: 700px;
+}
+#body{
+    width: 95%;
+    height: 80%;
+    margin: auto;
+}
+#table {
+	width: 100%;
+	margin: auto;
+	border-collapse: collapse;
+	border: 1px solid gray;
+	text-align: center;
+}
+.datas {
+	height: 37px;
+}
+.title {
+	height: 37px;
+	background-color: #60a2ed;
+	color: #FFF;
+	font-weight: 600;
+	font-family: »ªÎÄ·ÂËÎ;
+	font-size: 19px;
+}
+#tablediv {
+	width: 80%;
+	height: 83%;
+	position: relative;
+	top: 7%;
+	margin: auto;
+	border: 1px #d7d7d7 solid;
+	overflow: auto;
+}
+#buttons {
+	float: left;
+	position: relative;
+	top: 10%;
+	width: 18%;
+	height: 6%;
+	margin: auto;
+	left: 43%;
+}
+.button {
+	width: 46%;
+	height: 100%;
+	border: none;
+	color: #413e3e;
+	background: -moz-linear-gradient(top, #a7d1f5, #005dff);
+	/* border: 1px #aaa solid; */
+	cursor: pointer;
+	border-radius: 7px;
+	color: #FFF4F4;
+	font-size: 95%;
+}
+.button:hover {
+	background: -moz-linear-gradient(top, #45bafb, rgba(2, 94, 255, 0.7));
+}

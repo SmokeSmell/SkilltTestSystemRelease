@@ -1,0 +1,9 @@
+    <!ELEMENT Configs (Config+)>  
+    <!ELEMENT Config (DAOClassName,DomainClassName,propertyNames)> 
+    <!ELEMENT DAOClassName (#PCDATA) > 
+    <!ELEMENT DomainClassName (#PCDATA) >
+    <!ELEMENT propertyNames (propertyName+)>  
+    <!ELEMENT propertyName (#PCDATA)>  
+
+    <!ATTLIST Config id ID #REQUIRED> 
+    <!ATTLIST propertyName index CDATA #REQUIRED> 

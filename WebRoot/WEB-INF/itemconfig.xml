@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>   
+<Configs>
+	<Config id="users">
+		<DAOClassName>com.gong.db.UserDAO</DAOClassName> 
+		<DomainClassName>com.gong.domain.User</DomainClassName>
+		<TableName>用户表</TableName>
+		<propertyNames>
+			<propertyName index="0">user_name</propertyName>
+			<propertyName index="1">password</propertyName>
+			<propertyName index="2">role</propertyName>
+		</propertyNames>
+		
+	</Config>
+	<Config id="preapply">
+		<DAOClassName>com.gong.db.PreApplyDAO</DAOClassName>
+		<DomainClassName>com.gong.domain.PreApply</DomainClassName>
+		<TableName>预报名表</TableName>
+		<propertyNames>
+			<propertyName index="0">stu_number</propertyName>
+			<propertyName index="1">stu_name</propertyName>
+			<propertyName index="2">class_id</propertyName>
+			<propertyName index="3">time</propertyName>
+			<propertyName index="4">ispay</propertyName>
+		</propertyNames>
+		
+	</Config>
+	<Config id="stuinfo">
+		<DAOClassName>com.gong.db.StuInfoDAO</DAOClassName>
+		<DomainClassName>com.gong.domain.StuInfo</DomainClassName>
+		<TableName>学生表</TableName>
+		<propertyNames>
+			<propertyName index="0">student_number</propertyName>
+			<propertyName index="1">student_name</propertyName>
+			<propertyName index="2">student_sex</propertyName>
+			<propertyName index="3">student_college</propertyName>
+			<propertyName index="4">student_class</propertyName>
+			<propertyName index="5">student_identity</propertyName>
+			<propertyName index="6">student_birth</propertyName>
+			<propertyName index="7">student_edu</propertyName>
+			<propertyName index="8">student_mobile</propertyName>
+		</propertyNames>
+		<importColNames>
+			<propertyName index="0">学号</propertyName>
+			<propertyName index="1">姓名</propertyName>
+			<propertyName index="2">性别</propertyName>
+			<propertyName index="3">学院</propertyName>
+			<propertyName index="4">行政班</propertyName>
+			<propertyName index="5">身份证号</propertyName>
+		</importColNames>
+	</Config>
+	<Config id="teachers">
+		<DAOClassName>com.gong.db.TeacherDAO</DAOClassName>
+		<DomainClassName>com.gong.domain.Teacher</DomainClassName>
+		<TableName>教师表</TableName>
+		<propertyNames>
+			<propertyName index="0">teacher_id</propertyName>
+			<propertyName index="1">teacher_name</propertyName>
+			<propertyName index="2">teacher_depart</propertyName>
+		</propertyNames>
+		<importColNames>
+			<propertyName index="0">教师编号</propertyName>
+			<propertyName index="1">教师姓名</propertyName>
+			<propertyName index="2">部门</propertyName>
+		</importColNames>
+	</Config>
+	<Config id="strclass">
+		<DAOClassName>com.gong.db.StrClassDAO</DAOClassName>
+		<DomainClassName>com.gong.domain.StrengthClass</DomainClassName>
+		<TableName>强化班表</TableName>
+		<propertyNames>
+			<propertyName index="0">class_name</propertyName>
+			<propertyName index="1">start_time</propertyName>
+			<propertyName index="2">end_time</propertyName>
+			<propertyName index="3">tea_id</propertyName>
+			<propertyName index="4">class_place</propertyName>
+			<propertyName index="5">max_num</propertyName>
+			<propertyName index="6">max_expend</propertyName>
+		</propertyNames>
+		<importColNames>
+			<propertyName index="0">班级名称</propertyName>
+			<propertyName index="1">开始时间</propertyName>
+			<propertyName index="2">结束时间</propertyName>
+			<propertyName index="3">教师编号</propertyName>
+			<propertyName index="4">班级地点</propertyName>
+			<propertyName index="5">最大人数</propertyName>
+			<propertyName index="6">扩充人数</propertyName>
+		</importColNames>
+	</Config>
+	<Config id="mockscore">
+		<DAOClassName>com.gong.db.MockScoreDAO</DAOClassName>
+		<DomainClassName>com.gong.domain.MockScore</DomainClassName>
+		<TableName>模拟成绩表</TableName>
+		<propertyNames>
+			<propertyName index="0">stu_name</propertyName>
+			<propertyName index="1">stu_number</propertyName>
+			<propertyName index="2">mock_score</propertyName>
+		</propertyNames>
+		<importColNames>
+			<propertyName index="0">姓名</propertyName>
+			<propertyName index="1">学号</propertyName>
+			<propertyName index="2">模拟成绩</propertyName>
+		</importColNames>
+	</Config>
+	<Config id="score">
+		<DAOClassName>com.gong.db.ScoreDAO</DAOClassName>
+		<DomainClassName>com.gong.domain.Score</DomainClassName>
+		<TableName>成绩表</TableName>
+		<propertyNames>
+			<propertyName index="0">exam_number</propertyName>
+			<propertyName index="1">identity</propertyName>
+			<propertyName index="2">occupation</propertyName>
+			<propertyName index="3">degree</propertyName>
+			<propertyName index="4">auth_class</propertyName>
+			<propertyName index="5">practice_score</propertyName>
+			<propertyName index="6">status</propertyName>
+			<propertyName index="7">eva_score</propertyName>
+		</propertyNames>
+		<importColNames>
+			<propertyName index="0">准考证号</propertyName>
+			<propertyName index="1">身份证件号</propertyName>
+			<propertyName index="2">鉴定职业</propertyName>
+			<propertyName index="3">级别</propertyName>
+			<propertyName index="4">鉴定科目</propertyName>
+			<propertyName index="5">实操成绩</propertyName>
+			<propertyName index="6">实操考试情况</propertyName>
+			<propertyName index="7">评定成绩</propertyName>
+		</importColNames>
+	</Config>
+</Configs>
+

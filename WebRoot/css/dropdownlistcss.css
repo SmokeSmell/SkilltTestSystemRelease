@@ -1,0 +1,87 @@
+
+html,body,p,h1,h2,h3,h4,h5,h6,form,input,textarea,select,button,fieldset,legend,img,ul,ol,li,dl,dt,dd,th,td,pre,blockquote{margin:0;padding:0}
+a{text-decoration:none;color:#040404;blr:expression(this.onFocus=this.blur())}
+html{height:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-webkit-font-smoothing:antialiased}
+body{background-color:#fff;color:#040404;min-height:100%;height:auto!important;height:100%}
+body,button,input,select,textarea,h1,h2,h3,h4,h5,h6{font:14px "","Microsoft Yahei",arial,simhei}
+table{border-collapse:collapse;border-spacing:0}
+img,fieldset{border:0;vertical-align:middle}
+
+em,i{font-style:normal}
+iframe{display:block}
+.clear{display:block;overflow:hidden;clear:both;height:0;line-height:0;font-size:0;}
+.cont{width:1200px;margin:0px auto;}
+.textcent{ text-align:center}
+
+.head {height: 70px;width: 100%; }
+.yanse{ background:#be4355; width:50%; position: absolute;  right:0px;z-index:-1px; float:right;height:70px }
+.head-left {float: left;height: 41px;width: 135px;margin-left: 47px;padding-top: 15px;}
+
+.nav{cursor: pointer;
+width: 5%;
+float: right;
+height: 100%;
+position: relative;
+right: 6%;
+top: 0%;
+}
+
+ul.nav-main {
+	width: 100%;
+	height: 100%;
+	list-style-type: none;
+	position: relative;
+}
+ul.nav-main span {
+	display: inline-block;
+	/* margin-left: 5px; */
+	width: 12px;
+	height: 9px;
+	background: url(../image/sj1.png) no-repeat center center;
+	position: relative;
+	top: 5%;
+	left: 15%;
+}
+
+
+.hover-up{transition-duration:.5s;transform:rotate(180deg);-webkit-transform:rotate(180deg); }
+
+.hover-down{transition-duration:.5s;transform:rotate(0);-webkit-transform:rotate(0)}
+
+ul.nav-main > li {
+	width: 57%;
+	height: 100%;
+	display: block;
+	float: left;
+	color: #fff;
+	margin-right: 1px;
+	cursor: pointer;
+	text-align: center;
+}
+
+/*ul.nav-main>li:hover span{ background:url(../image/sg3.jpg)  no-repeat center center; z-index:100000 }*/
+ul.nav-min>li:hover{background:white;color:red}
+div.hidden-box {
+	width: 91%;
+	position: absolute;
+	display: none;
+	background: #315565 url(../image/sj2.png) no-repeat top center;
+	top: 95%;
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+	left: -1%;
+	text-align: center;
+	font-size: 15px;
+}
+.hidden-box>ul{list-style-type:none;color:#fff;cursor:pointer; padding-top:12px;padding-bottom:15px}
+.hidden-box>ul li{ line-height:30px; height:30px; font-weight:500}
+
+.hidden-loc-index{left:51px}
+#li-1 {
+	font-size: 100%;
+	font-family: Î¢ÈíÑÅºÚ;
+	position: relative;
+	top: 6%;
+}
+

@@ -1,0 +1,94 @@
+@CHARSET "gb2312";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#containner{
+    width: 100%;
+    height: 700px;
+}
+#body{
+    width: 95%;
+    height: 80%;
+    margin: auto;
+}
+#center {
+	width: 80%;
+	height: 87%;
+	margin: auto;
+	border: 1px #ddd solid;
+	position: relative;
+	top: 4%;
+	border-radius: 8px;
+}
+.value {
+	float: left;
+	width: 65%;
+	height: 100%;
+	border-radius: 5px;
+	border: 1px gray solid;
+}
+.name {
+	width: 35%;
+	height: 100%;
+	float: left;
+}
+.content {
+	width: 20%;
+	height: 100%;
+	position: relative;
+	top: 3%;
+	float: left;
+	padding-right: 2%;
+	padding-left: 3%;
+}
+#top {
+	width: 97%;
+	height: 5.5%;
+	border-bottom: 2px gray solid;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	margin: auto;
+}
+#buttons {
+	float: left;
+	position: relative;
+	top: 6%;
+	width: 15%;
+	height: 6%;
+	margin: auto;
+	left: 43%;
+}
+.button {
+	width: 46%;
+	height: 100%;
+	border: none;
+	color: #413e3e;
+	background: -moz-linear-gradient(top, #ededed, #929292);
+	/* border: 1px #aaa solid; */
+	cursor: pointer;
+	border-radius: 7px;
+	color: #FFF4F4;
+	font-size: 95%;
+}
+.button:hover {
+	background: -moz-linear-gradient(top, #989898, rgba(129, 129, 129, 0.7));
+}
+.number {
+	border: 1px gray solid;
+}
+#numbers {
+	border-collapse: collapse;
+	width: 89%;
+	position: relative;
+	top: 6%;
+	text-align: center;
+}
+#stu_number {
+	width: 80%;
+	height: 60%;
+	margin: auto;
+}
+#teachers {
+	text-align: center;
+}
